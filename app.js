@@ -1,3 +1,4 @@
+
 var btn1 = document.querySelector("." + "p");
 btn1.addEventListener("click", function () {
     var audio = new Audio("key01.mp3");
@@ -191,6 +192,7 @@ btn24.addEventListener("click",function () {
         btn24.classList.remove("pressed")
     }, 105);
 });
+
 
 
 
