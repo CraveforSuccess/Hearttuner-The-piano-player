@@ -30,6 +30,11 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    border: 2px solid white;
+    width: fit-content;
+}
+.btn button{
+    margin: 1rem;
 }
 
 .pressed{
@@ -41,17 +46,28 @@ body{
 .blk{
     font-weight: bolder;
 }
+/* checked */
+#check{
+    height: 100px;
+    width: 50px;
+    margin-right: 10px;
+}
 
 /* media queries */
 @media  screen and (max-width:600px) {
-    .head{
-        font-size: 2rem;
+   
+
+    .head h1{
+        font-size: 1.1rem;
         text-align: center;
+       
     }
+   
     .keys{
         height: 100px;
        font-size: 1rem;
-
+       width: 10px;
+       margin: 1px;
     }
    
     .main{
